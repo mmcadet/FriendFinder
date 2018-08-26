@@ -56,3 +56,7 @@ Technologies used:
 html,css,bootstrap,express,body-parser,path,node,jQuery.
 
 Challenges Faced: logic behind matching the answers difference to get best match for a album friend. Using modals.
+
+https://mmcadet.github.io/FriendFinder/
+
+- Misha Cadet
