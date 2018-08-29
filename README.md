@@ -37,12 +37,12 @@ Please see [Heroku’s Account Verification Information](https://devcenter.herok
 ----------------------------------------------------------------------------------------
 
 Overview
-In this activity, built a compatibility-based "Album FriendFinder" application -- basically a finder app. This full-stack site will take in results of users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
+This app is a compatibility-based FriendFinder off the video game Mario Kart to help users find their best gaming partner friends. This will take in results of users' surveys, then compare their answers with those from other users. The app will then display the name of the user with the best overall match.
 
 Instructions
 Survey should have 10 questions of our choosing. Each answer should be on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
 
-server.js file has the basic npm packages: express, body-parser and path.
+server.js file has the basic npm packages: express, body-parser, path
 
 html-routes.js file has include two routes:
 
@@ -55,7 +55,7 @@ A GET route with the url /api/friends. This will be used to display a JSON of al
 Technologies used:
 html,css,bootstrap,express,body-parser,path,node,jQuery.
 
-Challenges Faced: logic behind matching the answers difference to get best match for a album friend. Using modals.
+Challenges Faced: logic behind matching the answers difference to get best match for a MK friend.
 
 https://mmcadet.github.io/FriendFinder/
 

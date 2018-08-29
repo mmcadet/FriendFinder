@@ -32,7 +32,7 @@ module.exports = function(app){
 	}
 }
 
-// MATCH DATA  Best Album Friend //
+// MATCH DATA  Best MK Friend //
 
 var baf = friendList[topMatch];
 res.json(baf);

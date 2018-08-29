@@ -34,7 +34,7 @@
             </section>
             <section class='input-field'>
               <input id="name" type="text" class="validate" required>
-              <label class='active' for="name">Favorite Video Game (required)</label>
+              <label class='active' for="name">Link to Your Picture (required)</label>
             </section>
 
             <h5><strong>Question 1</strong></h5>
@@ -182,7 +182,7 @@ $(document).ready(function() {
     if(validateForm() == true) {
       var newFriend = {
       name: $('#name').val().trim(),
-      favAlbum: $('#album').val().trim(),
+      favAlbum: $('#game').val().trim(),
       scores: [
         $('#q1').val(),
         $('#q2').val(),
@@ -200,13 +200,13 @@ $(document).ready(function() {
 // AJAX //
       $.post(currentURL + "/api/friends", newFriend, function(data){
         $("matchName").text(data.name);
-        $("matchAlbum").text(data.album);
+        $("matchGame").text(data.game);
       });
 // MODAL //
         $('modal').modal();
 // CLEAR SURVEY //
         $('#name').val("");
-        $('#album').val("");        
+        $('#game').val("");        
         $('#q1').val("");
         $('#q2').val("");
         $('#q3').val("");
