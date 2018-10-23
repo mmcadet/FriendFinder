@@ -1,6 +1,6 @@
 // POST ROUTES / LOAD DATA //
 
-var friendList = require('../data/friend.js');
+var friendList = require('../data/friends.js');
 
 module.exports = function(app){
 
